@@ -1,0 +1,90 @@
+### Exercise 1: Hospital Queue System
+
+**Description:**  
+Implement a queue system to manage patient appointments in a hospital. Patients should be able to be added to the queue, removed when their appointment is done, and viewed in the order they will be seen.
+
+**Requirements:**
+- Implement a Queue class with methods: `enqueue`, `dequeue`, and `peek`.
+- Ensure the queue works with patient objects that have attributes: `name`, `appointment_time`.
+- Write unit tests to verify the order of patients in the queue and that dequeue removes the correct patient.
+
+Structure:
+-->hospital_1.py - main application
+-->hospital_tests.py - unit tests
+-->README.md - add your name and surname into already created README.md
+
+### Exercise 2: Undo Functionality in a Text Editor
+
+**Description:**  
+Create a stack system to manage the undo functionality in a text editor. Each action (typing, deleting) should be pushed onto a stack, and the last action should be popped when undoing.
+
+**Requirements:**
+- Implement a Stack class with methods: `push`, `pop`, and `peek`.
+- Each stack element should be a string representing a text operation.
+- Write unit tests to ensure the stack correctly handles undo operations.
+
+Structure:
+-->text_editor_2.py - main application
+-->text_editor_tests.py - unit tests
+-->README.md - add your name and surname into already created README.md
+
+### Exercise 3: Browser History Navigation
+
+**Description:**  
+Develop a system to manage browser history using a linked list. Users should be able to navigate forward and backward through their visited pages.
+
+**Requirements:**
+- Implement a LinkedList class with methods: `add_page`, `go_back`, `go_forward`.
+- Each node should store a URL and a reference to the next and previous nodes.
+- Write unit tests to verify navigation through the browser history.
+
+Structure:
+-->browser_history_3.py - main application
+-->browser_history_tests.py - unit tests
+-->README.md - add your name and surname into already created README.md
+
+
+### Exercise 4: Call Center Simulation
+
+**Description:**  
+Simulate a call center where calls are managed using a combination of a queue (for incoming calls) and a stack (for calls being processed).
+
+**Requirements:**
+- Implement a Queue for incoming calls and a Stack for calls being processed.
+- Each call should be an object with attributes: `caller_id`, `time_received`.
+- Write unit tests to ensure calls are managed correctly between the queue and stack.
+
+Structure:
+-->call_center_4.py - main application
+-->call_center_tests.py - unit tests
+-->README.md - add your name and surname into already created README.md
+
+### Exercise 5: Task Scheduler
+
+**Description:**  
+Create a task scheduler that manages tasks using a priority queue implemented with a linked list. Tasks should be processed based on priority.
+
+**Requirements:**
+- Implement a PriorityQueue class using a linked list, with methods: `add_task`, `process_task`.
+- Each task should have attributes: `task_name`, `priority`.
+- Write unit tests to ensure tasks are processed in order of priority.
+
+Structure:
+-->task_scheduler_5.py - main application
+-->task_scheduler_tests.py - unit tests
+-->README.md - add your name and surname into already created README.md
+
+### Exercise 6: Music Playlist Management
+
+**Description:**  
+Create a system to manage a music playlist using a linked list. Users should be able to add songs to the playlist, remove songs, and navigate through the playlist.
+
+**Requirements:**
+- Implement a `Playlist` class using a linked list, with methods: `add_song`, `remove_song`, `next_song`, `previous_song`.
+- Each song should be represented as an object with attributes: `title`, `artist`.
+- Write unit tests to ensure the playlist correctly updates when songs are added or removed and that navigation through the playlist works as expected.
+
+Structure:
+-->music_playslist_6.py - main application
+-->music_playslist_tests.py - unit tests
+-->README.md - add your name and surname into already created README.md
